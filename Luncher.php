@@ -4,7 +4,7 @@
 sudo ID : @KINGMNbo
 ─═ঊঈঊঈ═─╯
 */
-define('API_KEY','توکن ربات خود را در اینجا وارد کن');
+define('API_KEY','596126641:AAGyLyeT0ayCsKk0NkdwZjnv9AF3Mns0UWk');
 
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -75,7 +75,7 @@ $chat_id = $message->chat->id;
 $text = $message->text;
 $name = $message->from->first_name;
 $username = $update->message->from->username;
-$ADMIN = ایدی عددی خود;
+$ADMIN = 483370175;
 $chatid = $update->callback_query->message->chat->id;
 $data = $update->callback_query->data;
 $from_id = $message->from->id;
